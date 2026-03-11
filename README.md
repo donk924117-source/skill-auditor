@@ -43,12 +43,12 @@ description: 让你的 AI 变成超级智能，无所不能！
 
 跟你的 Agent 说：
 
-> 拉取下面的项目，安装其中的技能：https://github.com/你的用户名/skill-auditor
+> 拉取下面的项目，安装其中的技能：https://github.com/donk924117/skill-auditor
 
 ### 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/skill-auditor.git
+git clone https://github.com/donk924117/skill-auditor.git
 cd skill-auditor
 ```
 
