@@ -1,35 +1,4 @@
 
-📋 v1.0.1版本更新内容
-
-1. 新增 --quick 模式
-只输出摘要，用于安装前快速检查
-退出码：
-0 = SAFE 或 LOW RISK → 可直接安装
-1 = MEDIUM RISK → 警告用户，询问是否继续
-2 = HIGH RISK → 阻止安装
-
-2. 新增 --json 模式
-输出 JSON 格式，方便程序化处理包含所有发现详情
-
-3. 更强的安全模式检测
-🔴 HIGH: 提示词注入、身份覆盖、数据外泄、远程代码执行
-🟡 MEDIUM: 网络请求、进程执行、敏感文件、硬编码密钥
-🟢 LOW: 脚本文件、文件操作、配置文件
-
-4. SKILL.md 更新
-明确说明：安装新技能时自动触发审计，集成 ClawHub 安装流程
-
-手动审计：
-审计一下 skill-creator 技能
-
-快速模式：
-python audit.py <skill_path> --quick
-
-JSON 输出：
-python audit.py <skill_path> --json
-
-
-
 ## 🔒 Skill Auditor（技能安全审计工具）
 
 ### ⚠️ 背景：一个悲伤的故事（搞笑版~）
